@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "cx4",
+	"version": "${version}",
+	"name": "Cx4++",
+	"description": "This is an recreation of the Computer Craft mod which implements C++! This is updated to 1.21 to include the newest Minecraft features.",
+	"authors": [
+		"jawa"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cx4/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jawa.cx4.Cx4"
+		],
+		"client": [
+			"net.jawa.cx4.Cx4Client"
+		],
+		"fabric-datagen": [
+			"net.jawa.cx4.Cx4DataGenerator"
+		]
+	},
+	"mixins": [
+		"cx4.mixins.json",
+		{
+			"config": "cx4.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
