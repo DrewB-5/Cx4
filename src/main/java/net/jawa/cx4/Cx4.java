@@ -2,6 +2,7 @@ package net.jawa.cx4;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jawa.cx4.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class Cx4 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
