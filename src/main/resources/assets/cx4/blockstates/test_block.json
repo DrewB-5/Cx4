@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cx4:block/test_block"
+    }
+  }
+}

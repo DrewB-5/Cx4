@@ -1,4 +1,7 @@
 {
   "item.cx4.test_item": "Test Item",
-  "item.cx4.test_item_2": "Test Item 2"
+  "item.cx4.test_item_2": "Test Item 2",
+
+  "block.cx4.test_block": "Test Block",
+  "block.cx4.test_block_2": "Test Block 2"
 }
